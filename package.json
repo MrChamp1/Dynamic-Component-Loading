@@ -22,7 +22,8 @@
     "core-js": "^2.5.4",
     "npm": "^6.1.0",
     "rxjs": "^6.0.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "tslib": "^1.9.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.6.8",
@@ -45,5 +46,15 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "typescript": "~2.7.2"
-  }
+  },
+  "main": "bundles/dynamicloading.umd.js",
+  "module": "fesm5/dynamicloading.js",
+  "es2015": "fesm2015/dynamicloading.js",
+  "esm5": "esm5/dynamicloading.js",
+  "esm2015": "esm2015/dynamicloading.js",
+  "fesm5": "fesm5/dynamicloading.js",
+  "fesm2015": "fesm2015/dynamicloading.js",
+  "typings": "dynamicloading.d.ts",
+  "metadata": "dynamicloading.metadata.json",
+  "sideEffects": false
 }
