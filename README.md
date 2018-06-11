@@ -5,6 +5,8 @@ This is a service that dynamically adds a component to the DOM.
 ---
 
 ### Uses
+@angular/cdk
+
 npm install --save @angular/cdk
 
 # Usage
